@@ -17,4 +17,6 @@ def room(request, slug):
     return render(request, 'room/room.html', {'room': room, 'messages': messages})
 
 
+def profile(request):
+    return render(request, 'room/profile.html')
 
